@@ -9,10 +9,9 @@
         <style>
             .navigation {
                 font-size: xx-large;
-                padding: 1.5rem;
+                padding: 2rem;
                 text-align: center;
                 background-color: rgb(240, 189, 33);
-
             }
 
             textarea {
@@ -21,23 +20,30 @@
                 display: block;
                 margin: 1rem;
                 padding: 1rem;
+                margin: auto;
 
             }
 
             button {
                 background-color: rgb(240, 189, 33);
                 padding: 1rem;
-                margin-bottom: 1rem;
+                margin: auto;
             }
 
             #output {
                 border: 1px solid black;
-                height: 8vh;
+                height: 5vh;
                 width: 40%;
-                margin: 1rem;
                 padding: 1rem;
+                margin: auto;
+                text-align: center;
 
+            }
 
+            main {
+                padding-bottom: 0.5rem;
+                text-align: center;
+                margin: auto;
             }
 
             .footer-header {
@@ -47,7 +53,9 @@
             .footer {
                 background-color: rgb(240, 189, 33);
                 text-align: center;
-                padding: 1rem;
+                padding: 3rem;
+
+
 
             }
         </style>
@@ -57,20 +65,19 @@
     <body>
         <nav class="navigation container">
             <div class="nav-name">banana talk</div>
-
-
-            <div class="container container-center"></div>
         </nav>
-
 
         <div class=" container-center">
             <textarea id="text-input"
                 placeholder="write somthing in English here and we will convert it to banana"></textarea>
         </div>
 
-        <button id="btn-translate">Translate To Banana</button>
+        <main>
+            <button id="btn-translate">Translate To Banana</button>
 
-        <div style="font-size: larger;"> Translation will come here 👇</div>
+            <div style="font-size: larger;"> Translation will come here 👇</div>
+        </main>
+
         <div id="output"></div>
         <script src="app.js" type="text/javascript"></script>
 
