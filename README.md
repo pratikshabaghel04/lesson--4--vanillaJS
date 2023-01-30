@@ -3,7 +3,11 @@ This is a translation app which translate your English language to Minion langua
 
 # Tech Used
 HTML
+
 CSS
+
 JavaScript
 
+# Live
+https://bananatalkktranslation.netlify.app/
 
